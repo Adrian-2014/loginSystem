@@ -1,0 +1,28 @@
+.form-signin,
+.form-registration .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin,
+.form-registration input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin,
+.form-registration input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration {
+    border-radius: 0px !important;
+}
+
+.form-floating > label {
+    left: 0 !important;
+    height: 80% !important;
+    padding: 1rem 2rem;
+}
